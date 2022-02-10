@@ -1,4 +1,4 @@
-import Graphics.Win32 (vK_DIVIDE)
+
 seqMultiple :: Int -> Int -> [Bool]
 seqMultiple 0 _ = []
 seqMultiple x 0 = replicate x False
